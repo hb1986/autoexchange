@@ -8,6 +8,8 @@ import { TerminusModule } from "@nestjs/terminus";
 import { ThrottlerModule } from "@nestjs/throttler";
 import { ScheduleModule } from "@nestjs/schedule";
 import { PrismaModule } from "./prisma/prisma.module";
+import { AccountModule } from "./router/account/account.module";
+import { TokenModule } from "./router/token/token.module";
 
 @Module({
   imports: [
@@ -23,6 +25,8 @@ import { PrismaModule } from "./prisma/prisma.module";
     }),
     ScheduleModule.forRoot(),
     PrismaModule,
+    AccountModule,
+    TokenModule
     
   ],
   controllers: [AppController],

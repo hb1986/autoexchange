@@ -33,6 +33,11 @@ export default () => ({
       secret: "freefrom",
       maxAge: 24 * 3600 * 1000, // 24 hours
     },
+
+    api_key:{
+      API:"1tiwGV3iWRlpgLA0ki1YjetA1e3ttFmZkiqzV3VqtaZQ41WySZGRWhULYltlLq9l",
+      Secret:"i96QJ39YtIkRqLXoO0wMxx5nZbxaz5UFCGjeQ2TVuufgkRpHCCL6jLtH2h8aY5Gi"
+    }
    
   });
   
